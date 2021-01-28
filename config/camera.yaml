@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [587.5605133195778, 0, 319.961026804881, 0, 589.3863196914601, 252.1188505363358, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.07233136999229596, -0.1416227795356086, 0.01169041087737409, -0.002615109265130851, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [595.78857421875, 0, 318.4733912079537, 0, 0, 595.7101440429688, 256.3692254115813, 0, 0, 0, 1, 0]
